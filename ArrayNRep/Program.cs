@@ -13,8 +13,9 @@ namespace ArrayNRep
             // Console.WriteLine("Hello world");
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine("{0}^2 = {1}", i, i * i);
-            }            
+                Console.WriteLine("{0}^2 = {1}, {0}^3 = {2}",
+                    i, i * i, i*i*i);
+            }
         }
     }
 }
